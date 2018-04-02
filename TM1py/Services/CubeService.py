@@ -11,7 +11,7 @@ from TM1py.Services.ViewService import ViewService
 from TM1py.Services.CellService import CellService
 
 
-class CubeService(ObjectService):
+class CubeService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Cubes
 
     """

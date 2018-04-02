@@ -11,7 +11,7 @@ from TM1py.Services.HierarchyService import HierarchyService
 from TM1py.Services.ProcessService import ProcessService
 
 
-class DimensionService(ObjectService):
+class DimensionService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Dimensions
     
     """

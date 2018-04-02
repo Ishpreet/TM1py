@@ -6,7 +6,7 @@ from TM1py.Objects.User import User
 from TM1py.Services.ObjectService import ObjectService
 
 
-class SecurityService(ObjectService):
+class SecurityService(ObjectService,object):
     """ Service to handle Security stuff
     
     """

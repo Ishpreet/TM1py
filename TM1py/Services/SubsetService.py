@@ -9,7 +9,7 @@ from TM1py.Services.ObjectService import ObjectService
 from TM1py.Services.ProcessService import ProcessService
 
 
-class SubsetService(ObjectService):
+class SubsetService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Subsets (dynamic and static)
     
     """

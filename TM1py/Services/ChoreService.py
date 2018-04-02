@@ -33,7 +33,7 @@ def deactivate_activate(func):
     return wrapper
 
 
-class ChoreService(ObjectService):
+class ChoreService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Chores
     
     """

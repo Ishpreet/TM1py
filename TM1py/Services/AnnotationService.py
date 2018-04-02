@@ -7,7 +7,7 @@ from TM1py.Objects.Annotation import Annotation
 from TM1py.Services.ObjectService import ObjectService
 
 
-class AnnotationService(ObjectService):
+class AnnotationService(ObjectService,object):
     """ Service to handle Object Updates for TM1 CellAnnotations
     
     """

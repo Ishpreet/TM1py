@@ -6,7 +6,7 @@ from TM1py.Services.ObjectService import ObjectService
 from TM1py.Objects.User import User
 
 
-class MonitoringService(ObjectService):
+class MonitoringService(ObjectService,object):
     """ Service to Query and Cancel Threads in TM1
     
     """

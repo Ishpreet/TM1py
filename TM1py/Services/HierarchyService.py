@@ -7,7 +7,7 @@ from TM1py.Services.SubsetService import SubsetService
 from TM1py.Objects import Hierarchy
 
 
-class HierarchyService(ObjectService):
+class HierarchyService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Hierarchies
     
     """

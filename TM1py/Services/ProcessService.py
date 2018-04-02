@@ -8,7 +8,7 @@ from TM1py.Objects import Process
 from TM1py.Services import ObjectService
 
 
-class ProcessService(ObjectService):
+class ProcessService(ObjectService,object):
     """ Service to handle Object Updates for TI Processes
     
     """

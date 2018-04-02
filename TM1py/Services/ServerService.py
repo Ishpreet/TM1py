@@ -24,7 +24,7 @@ def odata_track_changes_header(func):
     return wrapper
 
 
-class ServerService(ObjectService):
+class ServerService(ObjectService,object):
     """ Service to query common information from the TM1 Server
     
     """

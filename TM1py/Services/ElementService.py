@@ -5,7 +5,7 @@ from TM1py.Objects import ElementAttribute, Element
 from TM1py.Services.ObjectService import ObjectService
 
 
-class ElementService(ObjectService):
+class ElementService(ObjectService,object):
     """ Service to handle Object Updates for TM1 Dimension (resp. Hierarchy) Elements
     
     """

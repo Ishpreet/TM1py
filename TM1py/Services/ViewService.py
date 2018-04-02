@@ -11,7 +11,7 @@ from TM1py.Objects.MDXView import MDXView
 from TM1py.Services.ObjectService import ObjectService
 
 
-class ViewService(ObjectService):
+class ViewService(ObjectService,object):
     """ Service to handle Object Updates for cube views (NativeViews and MDXViews)
     
     """
