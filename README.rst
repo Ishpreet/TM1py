@@ -3,6 +3,9 @@
 .. image:: Images/TM1pyText.png
     :align: center
 
+This repository is a Python 2.7 compatible version of awesome library created by Marius Wirtz and available at https://github.com/cubewise-code/TM1py
+
+
 By wrapping the IBM Planning Analytics (TM1) REST API in a concise Python framework, TM1py facilitates Python developments for TM1.
 
 Interacting with TM1 programmatically has never been easier.
@@ -31,7 +34,7 @@ TM1py offers handy features to interact with TM1 from Python, such as
 Requirements
 =======================
 
-- Python    (3.5 or higher)
+- Python    (2.7)
 - TM1       (10.2.2 FP 5 or higher)
 
 Usage

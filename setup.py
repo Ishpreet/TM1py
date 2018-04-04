@@ -6,7 +6,7 @@ from setuptools import setup
 
 SCHEDULE_VERSION = '0.1.8'
 SCHEDULE_DOWNLOAD_URL = (
-    'https://github.nike.com/DSM/TM1py/tarball/' + SCHEDULE_VERSION
+    'https://github.com/damirishpreet/TM1py/tarball/' + SCHEDULE_VERSION
 )
 
 
@@ -21,12 +21,12 @@ setup(
     name='TM1py',
     packages=['TM1py', 'TM1py/Exceptions', 'TM1py/Objects', 'TM1py/Services', 'TM1py/Utils'],
     version=SCHEDULE_VERSION,
-    description='A python module for TM1.',
+    description='A python 2.7 module for TM1.',
     long_description=read_file('README.rst'),
     license='MIT',
-    # author='Marius Wirtz',
-    # author_email='MWirtz@cubewise.com',
-    url='https://github.nike.com/DSM/TM1py',
+    author='Ishpreet Damir',
+    author_email='ishpreet.damir@gmail.com',
+    url='https://github.com/damirishpreet/TM1py',
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
         'TM1', 'IBM Cognos TM1', 'Planning Analytics', 'PA', 'Cognos'
